@@ -129,7 +129,7 @@ npm run dev
 
 * Automatic provider assignment is used (allowed by the assignment)
 * Provider actions are handled via backend logic
-* No authentication or payments added (out of scope)
+* No authentication or payments added
 
 ---
 
