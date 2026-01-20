@@ -5,11 +5,7 @@ import {Provider} from "../models/index.js";
 
 dotenv.config();
 
-const providers = [
-    {name: 'Provider A'},
-    {name: 'Provider B'},
-    {name: 'Provider C'}
-];
+const providers = [{name: 'Provider A'}, {name: 'Provider B'}, {name: 'Provider C'}];
 
 
 const seedingProviders = async() => {
@@ -20,12 +16,12 @@ const seedingProviders = async() => {
 
         await Provider.insertMany(providers);
 
-        console.log('Providers seeded successfully');
+        console.log('providers seeded successfully');
         process.exit();
 
     }
     catch(err) {
-        console.log('Seeding failed', err);
+        console.log('seeding failed', err);
         process.exit(1);
     }
 };
