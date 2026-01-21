@@ -66,7 +66,7 @@ The focus is on **booking lifecycle, state handling, and edge cases**, not UI po
 
 ## User Interface
 
-The UI has **three simple screens**, as required:
+The UI has **three simple screens**:
 
 1. **Create Booking** – customer creates a booking
 2. **Booking Status** – view booking status using booking ID
@@ -127,7 +127,7 @@ npm run dev
 
 ## Notes
 
-* Automatic provider assignment is used (allowed by the assignment)
+* Automatic provider assignment is used
 * Provider actions are handled via backend logic
 * No authentication or payments added
 
